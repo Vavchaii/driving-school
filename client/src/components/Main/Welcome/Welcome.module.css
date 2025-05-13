@@ -1,0 +1,64 @@
+.welcome {
+  color: #fdfdfd;
+  padding-bottom: 120px;
+}
+
+.welcome__logo {
+  width: 28px;
+  height: 22px;
+}
+
+.main__center {
+  display: flex;
+  height: 560px;
+  gap: 40px;
+}
+
+.welcome-cl-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.welcome__img {
+  width: 270px;
+  height: 330px;
+}
+
+.welcome-cl-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__group {
+  margin: 20px 0;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.welcome__text {
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+
+  width: 378px;
+
+  color: #fdfdfd;
+}
+
+.welcome__heading {
+  margin: 20px 0;
+
+  font-size: 58px;
+  font-weight: 500;
+}
+
+.welcome__company {
+  font-size: 30px;
+}

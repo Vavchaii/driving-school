@@ -1,0 +1,42 @@
+.banner {
+    background-image: url('../../../img/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .banner__title {
+    margin: 120px 0 20px 0;
+  
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    color: #353a5a;
+  }
+  
+  .banner__text {
+    margin-bottom: 50px;
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #353a5a;
+  }
+  
+  .banner__group {
+    display: flex;
+    padding-bottom: 120px;
+  }
+  
+  .banner__group-left {
+    width: 50%;
+    height: 100px;
+  }
+  
+  .banner__group-right {
+    width: 50%;
+  }
+  
+  .courses + .banner {
+    margin-bottom: 120px;
+  }

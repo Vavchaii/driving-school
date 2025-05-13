@@ -1,0 +1,38 @@
+.numbers {
+    background: #fdfdfd;
+  }
+  
+  .numbers__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  
+    padding: 120px 0;
+  }
+  
+  .numbers__items-item-number {
+    display: block;
+    text-align: center;
+  
+    color: #10b582;
+  
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 100%;
+  }
+  
+  .numbers__items-item-text {
+    display: block;
+    width: 270px;
+    height: 34px;
+  
+    padding-top: 15px;
+  
+    text-align: center;
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+  
+    color: #353a5a;
+  }
